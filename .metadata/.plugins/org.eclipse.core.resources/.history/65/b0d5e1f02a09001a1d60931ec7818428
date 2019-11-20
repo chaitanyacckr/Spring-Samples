@@ -1,0 +1,12 @@
+package com.startupcompany.projects.SpringBoot.Controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class HelloWorldController {
+
+	public String returnHelloWorld() {
+		return "hello your spring boot works fine";
+	}
+	
+}

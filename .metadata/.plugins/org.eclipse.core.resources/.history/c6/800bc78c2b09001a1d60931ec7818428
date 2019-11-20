@@ -1,0 +1,14 @@
+package com.startupcompany.projects.SpringBoot.Controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class HelloWorldController {
+
+	@RequestMapping("/helloworld")
+	public String returnHelloWorld() {
+		return "hello your spring boot works fine";
+	}
+	
+}

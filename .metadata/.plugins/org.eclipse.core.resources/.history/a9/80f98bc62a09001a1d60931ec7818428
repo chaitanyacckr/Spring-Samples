@@ -1,0 +1,5 @@
+package com.startupcompany.projects.SpringBoot.Controller;
+
+public class HelloWorldController {
+
+}

@@ -1,0 +1,20 @@
+package com.startupcompany.projects.SpringBoot;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.SpringBootConfiguration;
+import org.springframework.web.servlet.view.tiles3.SpringWildcardServletTilesApplicationContext;
+
+/**
+ * Hello world!
+ *
+ */
+
+@SpringBootConfiguration
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+        SpringApplication.run(App.class, args);
+    }
+}
